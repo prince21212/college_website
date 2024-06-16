@@ -1,0 +1,41 @@
+/* Mission-section- {section-2} */
+
+.mission-section {
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.left-side {
+    flex: 1;
+    padding: 0.5rem;
+    background-color: rgb(200, 185, 185);
+    border-radius: 5px;
+}
+
+.left-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right-side {
+    flex: 1;
+    padding: 2rem 0.5rem;
+}
+
+.mission-header {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.mission-header>span {
+    color: blue;
+}
+.right-side>.description{
+    width: 80%;
+}
+.tasks {
+    margin-top: 2rem;
+}

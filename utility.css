@@ -1,0 +1,28 @@
+/* unitlity css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 240, 240);
+}
+
+.section {
+    min-width: 99vw;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.description {
+    opacity: 0.8;
+}
