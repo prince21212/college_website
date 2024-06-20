@@ -1,18 +1,19 @@
 /* Header section css starts */
 
 .header{
-  padding:1rem 5rem;
+  min-height: fit-content;
+  padding:1rem 2rem;
   align-items: center;
   justify-content: space-between;
   white-space: nowrap;
 }
 .logo{
-  width: 20rem;
+  width: 14rem;
 }
 .nav-links{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   align-items: center;
-  gap:2rem;
+  gap:1.6rem;
 }
 .nav-links a{
    text-decoration: none;
@@ -30,11 +31,11 @@
 /* main-section css starts */
 
 .main{
-  height: 90vh;
+  min-height: 40vh;
   background: url('assest/clgbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y:right;
+  background-position:bottom;
   filter:saturate(2);
 }
 .main-text{
@@ -53,9 +54,9 @@
   opacity: 0.7;
 }
 .main-text>button{
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 1.1rem;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 /* Mission-section- {section-2} */
@@ -98,4 +99,7 @@
 }
 .tasks {
     margin-top: 2rem;
+}
+.task{
+  gap:1rem;
 }
