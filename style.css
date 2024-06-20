@@ -1,3 +1,63 @@
+/* Header section css starts */
+
+.header{
+  padding:1rem 5rem;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.logo{
+  width: 20rem;
+}
+.nav-links{
+  font-size: 1.3rem;
+  align-items: center;
+  gap:2rem;
+}
+.nav-links a{
+   text-decoration: none;
+   color:black;
+}
+.nav-links a:hover{
+    color:red;
+    transition: all 0.s linear;
+}
+.nav-links button{
+   padding: 0.5rem 0.6rem;
+   font-size: 1rem;
+}
+
+/* main-section css starts */
+
+.main{
+  height: 90vh;
+  background: url('clgbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y:right;
+  filter:saturate(2);
+}
+.main-text{
+  width: 50%;
+  padding: 10rem 2rem;
+  color:white;
+  text-align: center;
+}
+.main-text>h1{
+  font-size: 2.4em;
+  margin-bottom: 2rem;
+  white-space: nowrap;
+}
+.main-text>p{
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+.main-text>button{
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
 /* Mission-section- {section-2} */
 
 .mission-section {
