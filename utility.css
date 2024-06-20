@@ -26,3 +26,11 @@ body {
 .description {
     opacity: 0.8;
 }
+.btn{
+  border: none;
+  background-color: blue;
+  color:white;
+}
+.btn:hover{
+  background-color:blueviolet;
+}
