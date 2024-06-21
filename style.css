@@ -1,3 +1,24 @@
+/*For seaction 1 page   */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section{
+  min-width:100vw;
+}
+.flex{
+   display: flex;
+}
+.btn{
+  border: none;
+  background-color: blue;
+  color:white;
+}
+.btn:hover{
+  background-color:blueviolet;
+}
 /* Header section css starts */
 
 .header{
